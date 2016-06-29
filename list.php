@@ -5,12 +5,10 @@ require 'connection.php';
 $conn = Connect();
 $query = "select * from people order by lastName asc;";
 $result = $conn->query($query); 
-if (!$success) {
+if (!$result) {
     die("Couldn't retrieve data: ".$conn->connect_error);
 }
  
-#echo "This is my list<br>";
-
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
