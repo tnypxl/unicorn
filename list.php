@@ -6,7 +6,7 @@ $conn = Connect();
 $query = "select * from people order by lastName asc;";
 $result = $conn->query($query); 
 if (!$success) {
-    die("Couldn't retrieve data: ".$conn->error);
+    die("Couldn't retrieve data: ".$conn->connect_error);
 }
  
 #echo "This is my list<br>";
