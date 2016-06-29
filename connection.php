@@ -2,8 +2,8 @@
 function Connect()
 {
  $dbhost = "localhost";
- $dbuser = "root";
- $dbpass = "";
+ $dbuser = "unicorn";
+ $dbpass = "password1!";
  $dbname = "unicorn";
  
  // Create connection
