@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Unicorn</title>
+    <title>Unicorn Edit</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 			<div class=".col-xs-6 .col-sm-4">
 				<form class="form-horizontal" role="form" method="post" action="processedform.php">
 					<div class="form-group form-group-md">
-						<h2 class="panel-heading text-center">Hello, Unicorns!</h2>
+						<h2 class="panel-heading text-center">Hello, Unicorns! Edit</h2>
 						<div class="form-group">
 							<label for="firstName" class="col-sm-2 control-label">First Name</label>
 							<div class="col-sm-10">
